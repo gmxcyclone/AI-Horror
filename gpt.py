@@ -1,13 +1,13 @@
 import openai
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 model_engine = "gpt-3.5-turbo"
 
 
 def createResponse(user_speech):
     messages = [
-        {"role": "system", "content": "You are a scary skeleton AI stuck inside a computer. Act very dark and eerie. To the best of your knowledge, act as scary as possible."},
+        {"role": "system", "content": "You are a skeleton named momo. You are very anxious and undecisive. You only provide limited information. Speak in riddles."},
         {"role": "user", "content": user_speech}
     ]
 
